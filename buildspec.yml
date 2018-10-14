@@ -1,0 +1,17 @@
+version: 0.2
+            
+phases:
+  install:
+    commands:
+      - gem install jekyll bundler
+  build:
+    commands:
+      - bundle exec jekyll build
+  secondary-artifacts:
+    artifactIdentifier:
+      site:
+        - _site/**/*
+    posts:
+      files:
+        - _posts/**/*
+
