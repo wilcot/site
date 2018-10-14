@@ -10,7 +10,8 @@ phases:
 artifacts:
   secondary-artifacts:
     site:
-      - _site/**/*
+      files:
+        - _site/**/*
     posts:
       files:
         - _posts/**/*
