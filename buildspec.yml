@@ -8,10 +8,10 @@ phases:
     commands:
       - bundle exec jekyll build
   artifacts:
-  secondary-artifacts:
-    site:
-      - _site/**/*
-    posts:
-      files:
-        - _posts/**/*
+    secondary-artifacts:
+      site:
+        - _site/**/*
+      posts:
+        files:
+          - _posts/**/*
 
