@@ -9,10 +9,10 @@ phases:
     commands:
       - bundle exec jekyll build
 artifacts:
+  files:
+    - _site/**/*
+  name: site-$(date +%Y-%m-%d) 
   secondary-artifacts:
-    site:
-      files:
-        - _site/**/*
     posts:
       files:
         - _posts/**/*
